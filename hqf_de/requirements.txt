@@ -1,0 +1,39 @@
+# HQF-DE: Hybrid Query- and Fact-Guided Document Expansion
+# Requirements for Apple Silicon (MPS)
+
+# Core ML
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0  # For quantization (limited MPS support, CPU fallback)
+
+# Sentence embeddings for deduplication
+sentence-transformers>=2.2.0
+
+# Data processing
+datasets>=2.14.0
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Configuration and CLI
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+typer>=0.9.0
+rich>=13.0.0
+
+# HTTP client for C++ search API
+requests>=2.31.0
+httpx>=0.25.0
+
+# Evaluation
+pytrec-eval-terrier>=0.5.0
+ir-datasets>=0.5.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+ruff>=0.1.0
+
+# Optional: for experiment tracking
+# wandb>=0.15.0
