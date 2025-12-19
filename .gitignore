@@ -1,7 +1,6 @@
 # Data files
 data/
 indexer/data/
-*.tsv
 *.h5
 
 # Cache
@@ -22,5 +21,17 @@ venv/
 # PDFs (optional - remove if you want to include)
 *.pdf
 
-# Secrets - remove token before sharing
-# hqf_de_colab.ipynb contains HF token - be careful!
+# Compiled binaries
+indexer/indexer
+indexer/merger
+indexer/query
+
+# Index files
+indexer/index/
+indexer/partial/
+
+# Crow library (large, can be downloaded)
+indexer/Crow/
+
+# Backup
+indexer/backup/
