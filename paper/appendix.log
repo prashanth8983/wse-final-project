@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 DEC 2025 12:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 DEC 2025 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -739,21 +739,14 @@ Package hyperref Info: Link coloring OFF on input line 17.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `appendix.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `appendix.out':
-(rerunfilecheck)             Before: 2212383887C8F88D4B5395AE9F2D3041;1579
-(rerunfilecheck)             After:  06E8C99BCC0017F6A058937E1567523E;1692.
+Package rerunfilecheck Info: File `appendix.out' has not changed.
+(rerunfilecheck)             Checksum: 06E8C99BCC0017F6A058937E1567523E;1692.
  ) 
 Here is how much of TeX's memory you used:
- 21763 strings out of 473190
- 410655 string characters out of 5715801
+ 21764 strings out of 473190
+ 410667 string characters out of 5715801
  843064 words of memory out of 5000000
- 44646 multiletter control sequences out of 15000+600000
+ 44647 multiletter control sequences out of 15000+600000
  568200 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,91p,454b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -772,10 +765,10 @@ e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2
 025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/202
 5/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on appendix.pdf (4 pages, 188927 bytes).
+Output written on appendix.pdf (4 pages, 188995 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 164 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  25 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
