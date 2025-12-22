@@ -1,37 +1,37 @@
-# Data files
-data/
-indexer/data/
-*.h5
-
-# Cache
-hqf_de/cache/
-hqf_de/output/
+# Environment
+.env
+venv/1
 __pycache__/
 *.pyc
-.DS_Store
 
-# Virtual environment
-venv/
-.venv/
+# Data files (too large for git)
+data/*.tsv
+data/*.h5
+output/*.tsv
+output/*.failed
+
+# Build artifacts
+bm25_index/
+src/bm25/index/
+src/bm25/partial/
+src/bm25/*.bin
+results/
+trec_eval_bin
+*.txt
+experiments/
+
+# Data and docs
+data/
+docs/
 
 # IDE
-.vscode/
-.idea/
+.DS_Store
+.claude/
+*.swp
 
-# PDFs (optional - remove if you want to include)
-*.pdf
+# Keep empty dirs
+!data/.gitkeep
+!output/.gitkeep
 
-# Compiled binaries
-indexer/indexer
-indexer/merger
-indexer/query
-
-# Index files
-indexer/index/
-indexer/partial/
-
-# Crow library (large, can be downloaded)
-indexer/Crow/
-
-# Backup
-indexer/backup/
+# External projects
+david-candidate/
