@@ -9,7 +9,7 @@ data/*.tsv
 data/*.h5
 output/*.tsv
 output/*.failed
-
+paper
 # Build artifacts
 bm25_index/
 src/bm25/index/
